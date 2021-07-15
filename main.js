@@ -30,3 +30,15 @@ window.addEventListener('scroll', function() {
     header.classList.remove('scroll')    
     }
 })
+
+/* Testimonials carousel slider swiper */
+const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1, /**Só uma imgem */
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    mousewheel: true, /* usa o scroll do mouse */
+    Keyboard: true /* abilita a seta do teclado */
+
+   
+  });
